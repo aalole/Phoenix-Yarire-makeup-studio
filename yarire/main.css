@@ -1,0 +1,513 @@
+/* NAV HEADER */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+body {
+    background: #e5e5e5;
+    /* overflow-x: hidden!important; */
+}
+
+.nav-header {
+    height: 150px;
+    background: #fff;
+    margin-top: 0;
+}
+
+.header-title {
+    border: 2px solid #000;
+    width: 114px;
+    height: 50px;
+    padding-top: 5px;
+    ;
+}
+
+.logo {
+    padding-top: 30px;
+}
+
+.nav-active {
+    border-bottom: 1px solid #7B16DF;
+    color: #7B16DF !important;
+}
+
+.container-fluid ul li {
+    margin: 0 15px;
+}
+
+.container-fluid ul li a {
+    font-family: "Jaldi";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #021713;
+    text-transform: capitalize;
+}
+
+/* banner */
+
+.banner {
+    height: 600px;
+    ;
+    background: #f3d7db url("../../images/Group\ 1\ \(1\).png");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+
+/* .banner{
+    height: 600px;
+    background: pink url("../../images/work-4.png")center/cover no-repeat center;
+} */
+
+.banner-text {
+    margin-top: 120px
+}
+
+.banner-text h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #021713;
+}
+
+.banner-text p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 78px;
+    letter-spacing: 0.03em;
+    color: #021713;
+}
+
+.banner-btn {
+    width: 152.92px;
+    height: 56.34px;
+    background: #7B16DF;
+    border-radius: 5px;
+    font-family: "Jaldi";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-top: 15px;
+}
+
+
+.icons {
+    /* border: 1px solid black; */
+    width: 180px;
+    position: relative;
+    top: 150px;
+    left: 80%
+}
+
+.icons .fa-facebook,
+.icons .fa-youtube,
+.icons .fa-instagram {
+    font-size: 30px;
+    color: #7B16DF;
+    margin: 0 10px;
+}
+
+
+/* PROJECT STARTS */
+.work {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    /* background: purple */
+}
+
+.work h1 {
+    padding: 20px 0
+}
+
+.row .project {
+    margin: 15px 0;
+    transition: transform 2s;
+    opacity: 1
+}
+
+.row .project:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.row .project1 {
+    background-image: url("../../images/work-1.png");
+    height: 271px;
+    background-repeat: no-repeat;
+}
+
+.row .project2 {
+    background-image: url("../../images/work-2.png");
+    height: 271px;
+    background-repeat: no-repeat;
+}
+
+.row .project3 {
+    background-image: url("../../images/work-3.png");
+    /* width: 300px; */
+    height: 271px;
+    background-repeat: no-repeat;
+}
+
+.row .project4 {
+    background-image: url("../../images/work-4.png");
+    /* width: 300px; */
+    height: 271px;
+    background-repeat: no-repeat;
+}
+
+.row .project5 {
+    background-image: url("../../images/work-5.png");
+    /* width: 300px; */
+    height: 271px;
+    background-repeat: no-repeat;
+}
+
+.row .project6 {
+    background-image: url("../../images/work-6.png");
+    /* width: 300px; */
+    height: 271px;
+    background-repeat: no-repeat;
+}
+
+.work a {
+    border: 1px solid rgba(22, 27, 32, 0.5);
+    width: 197.92px;
+    height: 56.34px;
+    background: #7B16DF;
+    border-radius: 5px;
+    font-family: "Jaldi";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-top: 15px;
+    margin: 20px auto 20px 40%;
+}
+
+/*####### ADVERT ROW #############  */
+.advert {
+    height: 275.3px;
+    background-image: url("../../images/work-advert.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.advert-text {
+    background: #000;
+    padding-top: 20px
+}
+
+.advert-text p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.advert-text h6 {
+    color: rgba(255, 255, 255, 0.68);
+}
+
+.advert-text .fa-quote-left {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #7b16df;
+}
+
+/* about us */
+.about-us {
+    margin-top: 40px;
+    padding-top: 40px !important;
+}
+
+.about-img {
+    height: 469px;
+    background: url("../../images/about-img.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 1s ease-in-out
+}
+
+.about-img:hover {
+    transform: scale(0.8);
+    cursor: pointer;
+}
+
+.about-text h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 78px;
+    letter-spacing: 0.03em;
+}
+
+.about-text p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-align: justify;
+    padding-top: 30px
+}
+
+/* #################CONTACT US ############### */
+.contact-us {
+    margin: 40px auto
+}
+
+.contact-us h1 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 78px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+* a {
+    text-decoration: none !important;
+}
+
+.contact-us label {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #021713;
+}
+
+textarea {
+    width: 100%
+}
+
+textarea::placeholder {
+    padding-top: 13px;
+}
+
+.contact-us input,
+.contact-us textarea {
+    border: 2px solid #021713;
+    box-sizing: border-box;
+    height: 66px;
+}
+
+.contact-us form button {
+    width: 192px;
+    height: 56.34px;
+    background: #7B16DF;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    letter-spacing: 0.02em;
+}
+
+/* footer */
+
+footer {
+    height: 417px;
+    background: #021713;
+}
+
+footer h3 {
+    margin-top: 120px;
+    color: #effffc
+}
+
+.footer-left {
+    padding-left: 100px
+}
+
+.footer-right {
+    padding-right: 100px;
+}
+
+.footer-left h3 {
+    border: 2px solid #fff;
+    width: 114px;
+    margin-left: 0;
+    margin-right: 0
+}
+
+.footer-right input {
+    border: 2px solid #7b16df;
+    background: #021713;
+}
+
+.footer-right input::placeholder {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #EFFFFC;
+}
+
+.msg-btn {
+    background: #7b16df;
+    color: #FFF
+}
+
+.footer-left-nav a {
+    color: #effffc !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    font-family: "jardi";
+}
+
+/* .footer-left-nav li{
+    padding: 20px
+} */
+.footer-bottom {
+    padding-top: 60px;
+}
+
+.footer-bottom li a {
+    color: #7b16df !important;
+}
+
+.msg-form {
+    height: 60px;
+    max-width: 500px !important;
+    margin: 0 auto;
+}
+
+.msg-form input {
+    height: 60px;
+}
+
+/* testimonials */
+.testimonial {
+    height: 388px;
+    background: #F7E1E6;
+}
+
+.testimonial p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.prev,
+.next {
+    background-color: #7b16df !important;
+    color: #fff !important;
+}
+
+.car-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.testimonial .row {
+    padding-top: 50px;
+}
+
+.car-text {
+    padding-right: 40px;
+    text-align: justify;
+    padding-top: 70px
+}
+
+.testimonial-title {
+    margin: 70px 0 40px 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 78px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    padding-left: 100px
+}
+
+.contact-us form button:hover,
+.footer-bottom li a:hover,
+.work a:hover,
+.banner-btn:hover {
+    background: #effffc;
+    color: #7b16df;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 576px) and (max-width: 772px) {
+    .container-fluid ul li {
+        margin: 0;
+    }
+
+    .container-fluid ul li a {
+        font-size: 13px;
+        margin: 0;
+    }
+
+    .header-title {
+        position: relative;
+        right: 40px;
+    }
+
+    .banner {
+        background-position: bottom;
+    }
+
+    .banner-text h2 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .banner-text p {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+        width: 50px
+    }
+}
