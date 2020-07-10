@@ -207,7 +207,7 @@ body {
         height: 271.69px;
         display: block;
         margin: 15px auto;
-        ;
+        padding: 10px
     }
 
     .project:hover {
@@ -323,71 +323,6 @@ body {
     }
 }
 
-footer {
-    height: 417px;
-    background: #021713;
-    margin-top: 50px;
-}
-
-footer h3 {
-    margin-top: 120px;
-    color: #effffc
-}
-
-.footer-left {
-    padding-left: 100px
-}
-
-.footer-right {
-    padding-right: 100px;
-}
-
-.footer-left h3 {
-    border: 2px solid #fff;
-    width: 114px;
-    margin-left: 0;
-    margin-right: 0
-}
-
-.footer-right input {
-    border: 2px solid #4A1635;
-    ;
-    background: #021713;
-}
-
-.footer-right input::placeholder {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    letter-spacing: 0.02em;
-    color: #EFFFFC;
-}
-
-.msg-btn {
-    background: #4A1635;
-    color: #FFF
-}
-
-.footer-left-nav a {
-    color: #effffc !important;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
-    letter-spacing: 0.02em;
-    font-family: "jardi";
-}
-
-
-.footer-bottom {
-    padding-top: 60px;
-}
-
-.footer-bottom li a {
-    color: #4A1635 !important;
-}
 
 .services {
     margin-top: 40px;
@@ -399,8 +334,15 @@ footer h3 {
     display: block;
     margin: 15px auto;
     background-repeat: no-repeat;
+    transition: transform 1s ease-in-out;
+    border-radius: 5px;
 }
-.service p{
+
+.service:hover {
+    transform: scale(0.8)
+}
+
+.service p {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
@@ -421,7 +363,231 @@ footer h3 {
 }
 
 @media screen and (min-width:576px) {
-    /* .service {
-        margin: 15px 10px;
-    } */
+    .service {
+        width: 300px;
+        height: 350px;
+        border-radius: 5px
+    }
+
+    .service p {
+        font-size: 24px;
+        letter-spacing: 0.03em;
+        /* padding-top: 30%; */
+    }
+
+    .service:hover {
+        transform: scale(0.8)
+    }
+}
+
+/* testimonials */
+.testimonial-title {
+    font-size: 32px;
+    line-height: 39px;
+    color: #000;
+    text-align: left;
+    margin: 15px 0 15px 0;
+}
+
+.d-block {
+    width: 286px;
+    height: 192px;
+    margin: auto;
+    display: block
+}
+
+.car-text-cont h5 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #021713;
+    padding-top: 15px;
+    ;
+}
+
+.car-text-cont h5 span {
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #021713;
+}
+
+.car-text-cont p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 10px 15px
+}
+
+.row-carousel {
+    padding: 20px;
+    background: #F7E1E6;
+}
+
+@media screen and (min-width:620px) {
+    .d-block {
+        width: 430px;
+        height: 274px;
+    }
+
+    .car-text-cont p {
+        font-size: 18px;
+        line-height: 31px;
+        text-align: justify;
+    }
+
+    .car-text-cont {
+        padding-top: 40px;
+    }
+
+    .testimonial-title {
+        text-align: left;
+        margin: 15px 0 15px 0;
+        padding-left: 60px;
+        font-size: 48px;
+        line-height: 59px;
+    }
+}
+
+/* #################CONTACT US ############### */
+.contact-us {
+    margin: 40px auto
+}
+
+.contact-us h1 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.contact-us label {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #021713;
+}
+
+textarea {
+    width: 100%
+}
+
+textarea::placeholder {
+    padding-top: 13px;
+}
+
+.contact-us input,
+.contact-us textarea {
+    border: 2px solid #021713;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+.contact-us form button {
+    width: 125px;
+    height: 48.26px;
+    background: #4A1635;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #fff;
+    letter-spacing: 0.02em;
+}
+
+@media screen and (min-width:600px) {
+    .contact-us h1 {
+        font-size: 48px;
+        line-height: 59px;
+    }
+
+    .contact-us label {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .contact-us input,
+    .contact-us textarea {
+        height: 66px;
+    }
+}
+
+/* footer */
+footer {
+    /* height: 417px; */
+    background: #021713;
+}
+
+.footer-title {
+    margin-top: 20px;
+    border: 2px solid #fff;
+}
+
+.footer-left ul {
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.footer-left ul li a {
+    font-family: "Jaldi";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #EFFFFC;
+}
+
+.footer-right h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #EFFFFC;
+    margin-top: 25px;
+    margin-bottom: 25px
+}
+
+.msg-btn {
+    background: #4A1635;
+    color: #FFF;
+    width: 103.08px;
+    margin-right: 20px;
+}
+
+.footer-right input {
+    border: 2px solid #4A1635;
+    width: 150px;
+    margin-left: 30px
+}
+
+.footer-bottom ul{
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+.footer-bottom ul li {
+   margin: 0 -5px 0 -5px
+}
+.footer-bottom li a {
+    color: #4A1635!important;
+    font-size: 10px;
+    line-height: 13px;
+    letter-spacing: 0.02em;
+}
+@media screen and (min-width:600px){
+    .footer-row-top{
+        padding-top: 70px;
+    }
 }
